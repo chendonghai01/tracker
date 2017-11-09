@@ -52,7 +52,8 @@ libtracker_data_la_SOURCES =                           \
 	tracker-namespace.c                            \
 	tracker-ontology.c                             \
 	tracker-ontologies.c                           \
-	tracker-property.c
+	tracker-property.c                             \
+	tracker-sparql-parser.c
 
 libtracker_data_la_LIBADD =                            \
 	$(top_builddir)/src/gvdb/libgvdb.la \
@@ -85,6 +86,7 @@ noinst_HEADERS =                                       \
 	tracker-ontology.h                             \
 	tracker-ontologies.h                           \
 	tracker-property.h                             \
+	tracker-sparql-parser.h                        \
 	tracker-sparql-query.h
 
 # Configuration / GSettings
