@@ -53,6 +53,7 @@ libtracker_data_la_SOURCES =                           \
 	tracker-ontology.c                             \
 	tracker-ontologies.c                           \
 	tracker-property.c                             \
+	tracker-string-builder.c                       \
 	tracker-sparql-parser.c
 
 libtracker_data_la_LIBADD =                            \
@@ -86,6 +87,7 @@ noinst_HEADERS =                                       \
 	tracker-ontology.h                             \
 	tracker-ontologies.h                           \
 	tracker-property.h                             \
+	tracker-string-builder.h                       \
 	tracker-sparql-parser.h                        \
 	tracker-sparql-query.h
 
